@@ -1,0 +1,74 @@
+body {
+    
+        font-family: "Garamond", serif;
+   
+    
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 60px; 
+    font-weight: bold; 
+    text-align: center;
+    color: #c9986b;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('Pics/artem-stoliar-CF-2tl6MQj0-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #FFFFF0;
+}
+
+select, button {
+    font-size: 16px;
+    padding: 8px;
+    margin: 10px;
+}
+
+#fact {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #FFFFF0;
+}
+
+#tracking {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #FFFFF0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+#tracking p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #4B3B30
+}
+#tracking h2 {
+    color: #4B3B30; /* Dark Beige */
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+button {
+    background-color: #A89F91;
+    color: #FFFFF0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A89F91;
+}
