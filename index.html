@@ -1,0 +1,48 @@
+git status
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p id="fact"></p>
+
+    <h1>Sustainability Tracker</h1>
+
+    <p>Select a challenge:</p>
+    <select id="challengeSelect">
+        <option value="Single use cutlery">Avoid single use cutlery/water bottles</option>
+        <option value="Packaged products">Avoid packaged products</option>
+        <option value="Cloth bags">Carry cloth bags for groceries and other purchases</option>
+        <option value="Public transport">Use public transport</option>
+        <option value="Water">Reduce water usage</option>
+        <option value="New clothes">No new clothes</option>
+    </select>
+
+    
+    <label for="duration">Select duration:</label>
+    <select id="duration">
+        <option value="7">1 week</option>
+        <option value="14">2 weeks</option>
+        <option value="30">1 month</option>
+    </select>
+    <button onclick="startChallenge()">Start Challenge</button>
+
+   
+
+    <script src="script.js"></script>
+    <div id="tracking">
+        <h2>Track Your Progress</h2>
+        <p>Challenge: <span id="selectedChallenge">None</span></p>
+        <p>Days Completed: <span id="daysCompleted">0</span></p>
+        <p>Allowed Skip Days: <span id="skipDays">0</span></p>
+        <button onclick="markCompleted()">✔ Done Today</button>
+        <button onclick="markSkipped()">❌ Missed Today</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
